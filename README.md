@@ -123,34 +123,6 @@ Run all cells sequentially. GPU acceleration is used automatically if available.
 
 ---
 
-## 📁 Project Structure
-
-```
-deep-space-sentinel/
-│
-├── Main.ipynb                     # Full pipeline notebook
-├── train_FD001.txt                # CMAPSS training data (not tracked)
-├── test_FD001.txt                 # CMAPSS test data (not tracked)
-├── RUL_FD001.txt                  # Ground-truth RUL values (not tracked)
-│
-├── outputs/
-│   ├── sensor_trends.png
-│   ├── rul_distribution.png
-│   ├── correlation_heatmap.png
-│   ├── ae_loss.png
-│   ├── ae_recon_errors.png
-│   ├── rul_scatter.png
-│   ├── roc_pr_curves.png
-│   ├── confusion_matrices.png
-│   ├── model_summary.png
-│   ├── mission_control_dashboard.html
-│   └── live_telemetry_dashboard.html
-│
-└── README.md
-```
-
----
-
 ## 📋 Requirements
 
 ```

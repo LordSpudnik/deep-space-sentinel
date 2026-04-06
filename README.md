@@ -87,31 +87,6 @@ Three interactive/static dashboards are generated:
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/your-username/deep-space-sentinel.git
-cd deep-space-sentinel
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add dataset files
-Download the CMAPSS FD001 files from Kaggle and place them in the project root.
-
-### 4. Run the notebook
-```bash
-jupyter notebook Main.ipynb
-```
-
-Run all cells sequentially. GPU acceleration is used automatically if available.
-
----
-
 ## 🛠️ Tech Stack
 
 - **Python 3.10+**
